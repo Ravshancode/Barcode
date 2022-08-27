@@ -1,0 +1,139 @@
+
+*{
+    box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+  margin: 0 auto;
+  width: 100%;
+  background-position: bottom;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-image:linear-gradient(rgb(6 0 255 / 50%),rgb(66 0 0 / 41%)), url('img shtrixcode/joshua-earle-XnDQ9uXILRE-unsplash.jpg');}
+.content{
+    margin: 0px auto;
+}
+.img>img{
+    width: 200px;
+    /* height: 40px; */
+}
+.row{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+      width: 90%;
+     height: 100vh ;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     
+}
+.cont2{
+    color: black;
+    font-family: "Bahnschrift Light Condensed";
+     font-size: 30px;
+}
+#input{
+    text-align: center;
+    margin: 20px 0 0 0;
+background-color:rgb(54 65 73 / 23%);
+padding: 10px 25px;
+border-radius: 4px;
+border: 1px solid black;
+font-size: 20px;
+outline: none;
+}
+#result{
+   margin: 18px;
+    font-family: "Bahnschrift Light Condensed";
+    font-size: 30px;
+}
+#sabr{
+    margin: 0 0 30px 0;
+    color: gold;
+    font-family: "Bahnschrift Light Condensed";
+     font-size: 30px;
+}
+.ravshan{
+    cursor: pointer;
+    background-color: yellow;
+    padding: 6px 36px;
+    font-size: 34px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 15px;
+    border:1px solid yellow ;
+    font-family:"Tw Cen MT Condensed";
+    transition: 0.6s;
+}
+.ravshan:hover{
+    background-color: #a1a11f;
+    border:1px solid #a1a11f;
+
+}
+.ravshan:active{
+    background-color: #646421;
+    border:1px solid #646421;
+    
+}
+.button{
+    display: none;
+    margin: 20px auto;
+    background-color: yellow;
+    padding: 6px 28px 6px 19px;
+    font-size: 33px;
+    transition: 0.6s;
+    border-radius: 15px;
+    border:1px solid yellow ;
+    font-family: "Tw Cen MT Condensed";
+    text-decoration: none;
+
+}
+.button:hover{
+    background-color: #a1a11f;
+    border:1px solid #a1a11f;
+}
+.button:active{
+    background-color: #646421;
+    border:1px solid #646421;   
+}
+.icon{
+    height: 15px;
+    width: 40px;
+    padding: 2px 9px 0px 0px;
+    float: left;
+}
+
+/* Media */
+
+@media(max-width:668px){
+    .cont2{margin: 0px auto;}
+    .salom{ margin: 0px auto; 
+
+
+    }
+    #input{
+         color:gold;
+         width: 90%;
+    }
+
+    #result{
+        margin: 30px;
+        margin-bottom: 3px;
+        color:#fff;
+        font-family: "Tw Cen MT Condensed";
+        font-size: 33px;
+    }
+    #sabr{
+        color:rgb(229, 255, 0);
+        font-family: "Tw Cen MT Condensed";
+        font-size: 33px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    body{
+        background-image: url("img shtrixcode/_fhdocean169.jpg");
+        background-size: cover;
+    }
+
+}
